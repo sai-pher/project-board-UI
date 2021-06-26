@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const baseUrl = 'https://saipher-project-board-server.herokuapp.com';
+const baseUrl = 'https://saipher-project-board-server.herokuapp.com/api/projects';
 
 @Injectable({
   providedIn: 'root'
